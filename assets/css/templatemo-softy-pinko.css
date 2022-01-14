@@ -129,7 +129,7 @@ body {
 }
 
 .section.colored {
-  background: #f2f2fe;
+  background: linear-gradient(127deg, #00CCFF 0%, #3CCB84 91%);
 }
 
 .hr {
@@ -325,16 +325,16 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #00ff80;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #F0DC82;
   text-transform: uppercase;
-  color: #fff;
+  color: #1900ff;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -343,7 +343,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #3CCB84;
 }
 
 button.main-button {
@@ -353,9 +353,9 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #F0DC82;
   text-transform: uppercase;
-  color: #fff;
+  color: #1900ff;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -364,7 +364,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #00CCFF;
 }
 
 
@@ -448,7 +448,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #3CCB84;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -560,7 +560,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #3CCB84;
 }
 
 @media (max-width: 1200px) {
@@ -769,7 +769,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #F0DC82;
 }
 
 .features-small-item .icon {
@@ -783,7 +783,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #3CCB84;
+  background: linear-gradient(127deg, #00CCFF 0%, #3CCB84 91%);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -857,7 +857,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/tesla2.jpg);
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -913,7 +913,7 @@ parallax & home seperator
 
 .mini .mini-content .mini-box {
   display: block;
-  background: #3CCB84;
+  background: #fff;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
@@ -934,7 +934,7 @@ parallax & home seperator
   content: '';
   position: absolute;
   z-index: -1;
-  background: #3CCB84;
+  background: linear-gradient(127deg, #00CCFF 0%, #3CCB84 91%);
   width: 100%;
   opacity: .15;
   height: 100%;
@@ -980,7 +980,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(../images/fun-facts-bg.png);
+  background-image: url(../images/facts.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1111,7 +1111,7 @@ team
 --------------------------------------------- 
 */
 .team-item {
-  background: #88CFA8;
+  background: #F0DC82;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
   border-radius: 20px;
   position: relative;
@@ -1175,7 +1175,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff589e;
+  color: #6200ff;
   letter-spacing: 0.25px;
 }
 
@@ -1197,7 +1197,7 @@ pricing
 --------------------------------------------- 
 */
 .pricing-item {
-  background: #448AFF;
+  background: linear-gradient(127deg, #00CCFF 0%, #3CCB84 91%);
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   margin-bottom: 30px;
@@ -1214,7 +1214,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background: #12e4f3;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1257,7 +1257,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #8261ee;
+  background: #0ffa5dc9;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
@@ -1293,13 +1293,13 @@ pricing
   margin-bottom: 12px;
   font-weight: 400;
   font-size: 13px;
-  color: #7a7a7a;
+  color: #1100ff;
   letter-spacing: 0.25px;
   text-decoration: line-through;
 }
 
 .pricing-item .pricing-body .list li.active {
-  color: #7a7a7a;
+  color: #1100ff;
   text-decoration: none;
 }
 
