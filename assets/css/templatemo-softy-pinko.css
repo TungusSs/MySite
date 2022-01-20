@@ -1111,7 +1111,7 @@ team
 --------------------------------------------- 
 */
 .team-item {
-  background: #F0DC82;
+  background: #ffffff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
   border-radius: 20px;
   position: relative;
@@ -1175,7 +1175,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #6200ff;
+  color: #00CCFF;
   letter-spacing: 0.25px;
 }
 
@@ -1214,7 +1214,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background: #1100ff;
+  background: #30CEFB;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
